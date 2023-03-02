@@ -1,5 +1,10 @@
 Clone of "Modern UI (Metro) Charts for Windows 8, WPF, Silverlight": http://modernuicharts.codeplex.com/
 
+
+Note:
+
+Do not clone into a folder with the name "De.TortenMandelkow.MetroChart" in the path. The build script in XAMLReplace.targets (line 72) uses the path to determine which files to process for assembly name replacement and causes build to fail. 
+
 ###Relevant changes:
 * `ChartSeries` now has a `BrushMember` property, allowing the chart piece color to be set via data member rather than palette.
 
