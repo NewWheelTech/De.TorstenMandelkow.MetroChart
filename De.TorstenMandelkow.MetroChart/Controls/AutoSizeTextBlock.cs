@@ -80,7 +80,6 @@
 #endif
         Border mainBorder = null;
         TextBlock mainTextBlock = null;
-        double initialheight = 0.0;
         private void InternalOnApplyTemplate()
         {
             mainBorder = this.GetTemplateChild("PART_Border") as Border; 

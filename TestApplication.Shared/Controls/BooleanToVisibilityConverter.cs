@@ -79,7 +79,7 @@ namespace TestApplication.Shared
                     return Visibility.Collapsed;
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
             return Visibility.Collapsed;
