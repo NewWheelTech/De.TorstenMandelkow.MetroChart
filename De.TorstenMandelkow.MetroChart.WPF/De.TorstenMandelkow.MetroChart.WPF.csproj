@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <OutputType>Library</OutputType>
     <RootNamespace>De.TorstenMandelkow.MetroChart</RootNamespace>
     <AssemblyName>De.TorstenMandelkow.MetroChart</AssemblyName>
@@ -15,6 +15,15 @@
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\MainKey.snk</AssemblyOriginatorKeyFile>
+    <RepositoryUrl>https://github.com/NewWheelTech/MetroChart</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Charts WPF Metro ModernUI UI XAML Library .NET</PackageTags>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>ModernUICharts.WPF.NET6</PackageId>
+    <Title>ModernUICharts WPF NET6</Title>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\De.TorstenMandelkow.MetroChart\ChartControls\ChartArea.cs">
@@ -137,10 +146,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-    <PackageReference Include="System.Data.DataSetExtensions" Version="4.6.0-preview3.19128.7" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
     <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.4.410601">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.0-preview.1.23110.8" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="7.0.0" />
   </ItemGroup>
 </Project>
