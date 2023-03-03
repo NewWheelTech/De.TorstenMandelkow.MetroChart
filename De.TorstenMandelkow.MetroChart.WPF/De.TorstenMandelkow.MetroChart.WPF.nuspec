@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>ModernUICharts.WPF</id>
+    <version>1.0.0</version>
+    <title>Modern UI Charts in WPF </title>
+    <authors>Torsten Mandelkow</authors>
+    <owners>New Wheel Technology</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MS-PL</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/NewWheelTech/MetroChart</projectUrl>
+    <description>Last version of Torsten's Mandelkow library. 
+    </description>
+    <releaseNotes>Modern UI Charts for WPF</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>Charts WPF ModernUI UI XAML Library .NET</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework="" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework="" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
